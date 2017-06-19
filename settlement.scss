@@ -1,3 +1,8 @@
+/*! settlement.css v0.1 */
+
+/**
+ * true reset for headings
+ */
 h1, h2, h3, h4, h5, h6 {
   font-size:100%;
   font-weight:normal;
@@ -5,8 +10,29 @@ h1, h2, h3, h4, h5, h6 {
   padding:0px;
 }
 
+/**
+ * true reset for navigation lists
+ */
 nav ul {
   list-style-type: none;
   margin:0px;
   padding:0px;
+}
+
+/**
+ * pointers for all the clickable things!
+ */
+a, input[type="submit"], [type="reset"], button  {
+  cursor:pointer;
+}
+
+/**
+ * except those of course
+ */
+input[type="submit"], [type="reset"], button  {
+  &:disabled,
+  &:read-only,
+  &::-moz-read-only {
+    cursor: default;
+  }
 }
