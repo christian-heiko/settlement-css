@@ -1,0 +1,12 @@
+{
+  "name": "settlement-css",
+  "version": "0.0.1",
+  "description": "true reset scss",
+  "main": "index.js",
+  "repository": "https://github.com/christian-heiko/settlement-css.git",
+  "author": "Christian Heiko Wüthrich <wuethrich.ch@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "normalize.css": "^7.0.0"
+  }
+}
